@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ricette de zizzo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=AR+One+Sans&family=Roboto:wght@100;300;400&display=swap"
+        rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="header">
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Clients</a>
+            <a href="#">Contact</a>
+        </div>
+
+
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+        <a href="index.html">
+            <h1>Ricette de zizzo</h1>
+        </a>
+        <input type="text" class="search" placeholder="Cerca una ricetta">
+        <a href="ricette.html">
+            <h2 class="ricette">Ricette</h2>
+        </a>
+    </div>
+    <div class="home">
+
+
+        <div class="slider">
+
+            <div id="img_slider">
+                <img src="lasagna.jpeg">
+                <img src="https://i.postimg.cc/kMhJKgr6/immagine2.jpg">
+                <img src="https://i.postimg.cc/WbF2ncj9/immagine3.jpg">
+                <img src="https://i.postimg.cc/15h9JYts/immagine4.jpg">
+                <img src="https://i.postimg.cc/rmD8YBxF/immagine5.jpg">
+            </div>
+            <div class="button">
+
+                <div onclick="prec()" class="btn-left">&#10140;</div>
+                <div onclick="succ()" class="btn-right">&#10140;</div>
+            </div>
+        </div>
+
+        <h2>Le nostre ricette</h2>
+        <div class="bar"></div>
+        <div class="piatti">
+            <div class="card">
+                <img src="pizza-gourmet.webp" alt="" class="img1">
+                <div class="heart">&hearts;</div>
+                <h3> Pistacchiosa </h3>
+            </div>
+            <div class="card">
+                <img src="pizza-gourmet.webp" alt="" class="img1">
+                <div class="heart">&hearts;</div>
+                <h3> Pistacchiosa </h3>
+            </div>
+            <div class="card">
+                <img src="pizza-gourmet.webp" alt="" class="img1">
+                <div class="heart">&hearts;</div>
+                <h3> Pistacchiosa </h3>
+            </div>
+            <div class="card">
+                <img src="pizza-gourmet.webp" alt="" class="img1">
+                <div class="heart">&hearts;</div>
+                <h3> Pistacchiosa </h3>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
